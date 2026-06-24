@@ -1,0 +1,127 @@
+[
+  {
+    "concept": "Microsoft Copilot Studio",
+    "description": "A low-code conversational AI platform used to build custom agents, integrate with Power Platform, and connect to internal knowledge sources or APIs.",
+    "examClues": "Look for phrases like \"conversational AI\", \"custom agents\", \"low-code AI\", or \"connect to knowledge sources\". If the question asks for a platform to build a conversational agent with custom topics, it's Copilot Studio."
+  },
+  {
+    "concept": "Azure OpenAI Service",
+    "description": "Provides secure, enterprise-grade access to OpenAI’s language models (like GPT-4). Used for content generation, sentiment analysis, and answering questions from custom data.",
+    "examClues": "Keywords: \"enterprise-grade security\", \"GPT-4\", \"sentiment analysis\", \"custom language model\". Choose this when needing secure API access to generative AI."
+  },
+  {
+    "concept": "Microsoft 365 Copilot",
+    "description": "An AI-powered productivity tool integrated into Microsoft 365 apps (Word, Outlook, Teams) to automate tasks like summarizing emails and generating meeting notes.",
+    "examClues": "Keywords: \"summarize email threads\", \"meeting preparation\", \"Word\", \"Outlook\", \"Teams\". If the goal is to enhance employee productivity within Office apps, this is the answer."
+  },
+  {
+    "concept": "Microsoft Power Platform",
+    "description": "A suite of low-code tools (Power Apps, Power Automate, Power BI) used for building business applications, automated workflows, and data integrations.",
+    "examClues": "Keywords: \"low-code business apps\", \"workflow automation\", \"Power Apps\". Often the correct choice when integrating multiple Microsoft business solutions."
+  },
+  {
+    "concept": "Microsoft Dataverse",
+    "description": "A secure, scalable cloud database used by Power Platform and Dynamics 365 to store and manage business data, often serving as the primary knowledge base for agents.",
+    "examClues": "Keywords: \"Dynamics 365 data\", \"centralized business database\", \"Power Platform storage\". This is the answer for storing app data securely within the Microsoft ecosystem."
+  },
+  {
+    "concept": "Microsoft Foundry (AI Foundry)",
+    "description": "A control plane for managing, evaluating, and deploying AI models and agents. Includes features for drift monitoring, responsible AI, and prompt evaluations.",
+    "examClues": "Keywords: \"drift monitoring\", \"evaluate model output\", \"prompt evaluations\", \"responsible AI dashboard\". Choose this for model governance, testing, and lifecycle management."
+  },
+  {
+    "concept": "Azure Monitor & Application Insights",
+    "description": "Used to collect, analyze, and act on telemetry data from cloud environments and AI agents. Application Insights specifically tracks agent telemetry in near-real-time.",
+    "examClues": "Keywords: \"comprehensive telemetry data\", \"near-real-time (NRT)\", \"performance insights\". Always pick Application Insights for monitoring custom apps and agents."
+  },
+  {
+    "concept": "Microsoft Purview",
+    "description": "A unified data governance and risk management service. Used to monitor AI apps for compliance, track sensitive data, and apply data loss prevention (DLP).",
+    "examClues": "Keywords: \"data governance\", \"compliance\", \"track sensitive data\", \"DLP policies\". This is the go-to answer for data security and compliance requirements."
+  },
+  {
+    "concept": "Data Loss Prevention (DLP) Policies",
+    "description": "Security policies configured to prevent sensitive data from being shared inappropriately or accessed by unauthorized connectors in Power Platform.",
+    "examClues": "Keywords: \"prevent agents from accessing sensitive data\", \"restrict connector usage\". Select DLP when asked how to block data leakage in Power Platform."
+  },
+  {
+    "concept": "Microsoft Security Copilot",
+    "description": "An AI assistant designed for security professionals to quickly analyze threat signals, respond to incidents, and assess security posture.",
+    "examClues": "Keywords: \"security professionals\", \"threat signals\", \"incident response\". Only choose this when the persona is a security analyst."
+  },
+  {
+    "concept": "GitHub Copilot",
+    "description": "An AI pair programmer that assists developers by suggesting code and functions directly within their IDE.",
+    "examClues": "Keywords: \"write code faster\", \"developer IDE\", \"code suggestions\". This is the answer for software development productivity."
+  },
+  {
+    "concept": "Application Lifecycle Management (ALM)",
+    "description": "The process of managing an application's lifecycle (development, testing, deployment). In Power Platform, this relies on Solutions (Managed/Unmanaged).",
+    "examClues": "Keywords: \"deploy between environments\", \"version control\", \"managed solutions\". Pick solutions or pipelines when asked about moving agents to production."
+  },
+  {
+    "concept": "Retrieval-Augmented Generation (RAG)",
+    "description": "A technique that grounds an AI model on external, domain-specific knowledge (like documents or databases) to improve accuracy and reduce hallucinations.",
+    "examClues": "Keywords: \"grounding data\", \"external knowledge\", \"reduce hallucinations\". Look for RAG when asked how to make an AI answer based on company documents."
+  },
+  {
+    "concept": "Managed vs. Unmanaged Solutions",
+    "description": "Unmanaged solutions are used in development environments and can be modified. Managed solutions are deployed to test/production and cannot be edited.",
+    "examClues": "Keywords: \"prevent direct editing in production\", \"deploy consistently\". Always choose exporting as a Managed Solution when moving to Production."
+  },
+  {
+    "concept": "Power Automate",
+    "description": "A service used to create automated workflows (flows) between apps and services to synchronize files, collect data, and orchestrate backend processes.",
+    "examClues": "Keywords: \"automate a backend process\", \"workflow\", \"orchestrate data movement\". Use this for step-by-step logic that runs independently of agent reasoning."
+  },
+  {
+    "concept": "Dynamics 365",
+    "description": "A portfolio of intelligent business applications (CRM and ERP) such as Sales, Customer Service, and Finance, which can be extended and automated using AI agents.",
+    "examClues": "Keywords: \"CRM\", \"ERP\", \"Sales\", \"Customer Service\"."
+  },
+  {
+    "concept": "Responsible AI Dashboard",
+    "description": "A tool that provides a single pane of glass to evaluate models for fairness, bias, error analysis, and interpretability.",
+    "examClues": "Keywords: \"fairness\", \"bias\", \"interpretability\". Choose this when executives (like CEO) want to verify compliance with AI principles."
+  },
+  {
+    "concept": "System Instructions (System Prompts)",
+    "description": "The foundational instructions given to an AI model or agent that define its persona, constraints, and behavior. Modifying these is the best way to mitigate biased behavior.",
+    "examClues": "Keywords: \"mitigate bias\", \"persona\", \"constraints\". Modifying system instructions is the correct strategy for addressing bias without retraining the model."
+  },
+  {
+    "concept": "Custom Connectors",
+    "description": "Wrappers around a REST API that allow Power Platform and Copilot Studio to communicate with external services and data sources securely.",
+    "examClues": "Keywords: \"REST API\", \"external services\", \"custom integration\". Use custom connectors when Copilot Studio needs to talk to a 3rd party API."
+  },
+  {
+    "concept": "Log Analytics",
+    "description": "A tool in Azure Monitor used to edit and run log queries against collected telemetry data, often used for troubleshooting Copilot Studio agents.",
+    "examClues": "Keywords: \"log queries\", \"troubleshooting agents\", \"telemetry\". Choose this when needing to dig deep into logs for comprehensive insights."
+  },
+  {
+    "concept": "Token Usage Limit",
+    "description": "A constraint on the number of tokens an AI model can process. Chunking documents, reducing knowledge sources, and prompt refinement help manage this.",
+    "examClues": "Keywords: \"response time is slow\", \"token usage limit\". Reconfiguring prompts to limit retrieved content is the best way to handle this."
+  },
+  {
+    "concept": "Model Context Protocol (MCP)",
+    "description": "An open standard that enables agents to dynamically use external tools at runtime without needing manual updates to the agent's internal logic.",
+    "examClues": "Keywords: \"dynamically use external tools at runtime\", \"without updating the agent\". Look for MCP for dynamic tool use."
+  },
+  {
+    "concept": "Return on AI Investment (ROAI)",
+    "description": "A metric or structured analysis evaluating the financial and strategic impact of AI initiatives, balancing immediate results with long-term values (e.g., using a horizon-based framework).",
+    "examClues": "Keywords: \"evaluate the financial implications\", \"balance immediate results with long-term values\". Look for \"horizon-based framework\" or \"TCO Calculator\"."
+  },
+  {
+    "concept": "Total Cost of Ownership (TCO) Calculator",
+    "description": "A tool used to evaluate the potential overall cost of an AI solution (including development, deployment, and operating costs) to support ROAI analysis.",
+    "examClues": "Keywords: \"potential cost of the solution\", \"ROAI analysis\", \"expected savings\". TCO Calculator is the right answer for evaluating costs."
+  },
+  {
+    "concept": "Computer Use in Copilot Studio",
+    "description": "A feature allowing an agent to simulate user interactions across third-party apps and websites, such as clicking buttons or entering text.",
+    "examClues": "Keywords: \"simulating user interactions\", \"frequent changes to the app's user interface\", \"clicking buttons\"."
+  }
+]
